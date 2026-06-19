@@ -21,13 +21,11 @@ Place the seams in the provided seam escapement teardrops for vertical holes (fo
 Test the pins and screws being used to pick which hole diameter variant to print - the pins should not be loose, but also not be so tight as to deform or overly strain the printed part.  
 The tester provides testing holes for both vertical holes (A/B/X/Y) and horizontal holes (front idlers).
 ![Fitment tester legend](images/fitment-tester.png)
-  
-# Exporting STLs
-Open the STEP files, export the desired parts as STL.  
-Pick the variants with the ideal hole size found in the previous step.  
 
 # Printing the Production Parts
+Pick the variants with the ideal hole size found in the previous step.  
 Use the same settings as used earlier for the hole fitment test - make sure to place the seams in the escapement areas as necessary for vertical holes.  
+Please note that the provided STLs have not been pre-processed in any way - make sure they are rotated for printing in the correct orientation as necessary.  
 
 <br/>
 <br/>
@@ -37,7 +35,12 @@ Use the same settings as used earlier for the hole fitment test - make sure to p
 
 ### Modified Parts
 - `[a]_idler_carrier_a_x2`  
-  Four different models are provided (Stock 5.20mm gap, narrower 5.15/5.10/5.05/5.00 gap).
+  Five different models are provided (Stock 5.20mm gap, narrower 5.15/5.10/5.05/5.00 gap).
+- `[a]_idler_carrier_b_x2`  
+
+### Unmodified parts
+While only the above part has been modified, the rest of the front idler components have also been exported as STLs alongside without pre-scaling in case you wish to print all components with the same shrinkage compensation for a perfect fit.  
+If using these STLs, please make sure their print orientation is correct - they have not been rotated or pre-processed in any way.  
 
 ### BOM Changes
 - 1x M5x16 BHCS -> 1x 5x18mm pin (per idler)
