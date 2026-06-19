@@ -37,7 +37,7 @@ Use the same settings as used earlier for the hole fitment test - make sure to p
 
 ### Modified Parts
 - `[a]_idler_carrier_a_x2`  
-  Four different models are provided (Stock 5.20mm gap, narrower 5.15/5.10/5.05 gap).
+  Four different models are provided (Stock 5.20mm gap, narrower 5.15/5.10/5.05/5.00 gap).
 
 ### BOM Changes
 - 1x M5x16 BHCS -> 1x 5x18mm pin (per idler)
